@@ -4,7 +4,7 @@
 // NOTE: you can change the ui class to a prefix of your choice
 
 .ui.grid {
-	display: -webkit-box;
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -13,52 +13,52 @@
   margin: 0;
   padding: 0;
 
-	&.top {
-		align-items: flex-start;
-	}
+    &.top {
+      align-items: flex-start;
+    }
 
-	&.bottom {
-		align-items: flex-end;
-	}
+    &.bottom {
+      align-items: flex-end;
+    }
 
-	&.center {
-		align-items: center;
-	}
+    &.center {
+      align-items: center;
+    }
 
-	&.justify {
-		justify-content: center;
-	}
+    &.justify {
+      justify-content: center;
+    }
 
-	.cell {
-		-webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-	  flex: 1;
+    .cell {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
 
-		&.top {
-			align-self: flex-start;
-		}
+      &.top {
+        align-self: flex-start;
+      }
 
-		&.bottom {
-			align-self: flex-end;
-		}
+      &.bottom {
+	align-self: flex-end;
+      }
 
-		&.center {
-			align-self: center;
-		}
+      &.center {
+	align-self: center;
+      }
 
-		&.auto {
-			flex: none;
-		}
-	}
+      &.auto {
+	flex: none;
+      }
+    }
 
-	&.gutter {
-		margin-left: -@space-base;
+    &.gutter {
+      margin-left: -@space-base;
 
-		.cell {
-			padding-left: @space-base;
-		}
-	}
+      .cell {
+	padding-left: @space-base;
+       }
+    }
 
 	&.flex {
 
